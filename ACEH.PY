@@ -19,4 +19,4 @@ folium.Marker(location=[3.0700274, 96.8644272],popup='Kab. Aceh selatan',icon=fo
 folium.Marker(location=[3.3379887, 97.0568133],popup='Kab. Aceh Tenggara',icon=folium.Icon(icon='info-sign')).add_to(m)
 folium.Marker(location=[4.2184441, 97.7212565],popup='Kab. Aceh Tamiang',icon=folium.Icon(icon='info-sign')).add_to(m)
 folium.Marker(location=[3.9808591, 96.7630114],popup='Kab. Aceh GayoLues',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[4.1763108, 95.9452556],popup='Kab. Aceh Nagan Raya',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[4.788100, 96.381874],popup='Rusip Antara. Kabupaten Aceh Tengah',icon=folium.Icon(icon='info-sign')).add_to(m)
