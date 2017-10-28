@@ -131,7 +131,7 @@ folium.Marker(
 ).add_to(m)
 folium.Marker(
   location=[5.5484305,95.3153775,13]
-  popup='Hall Stadion Harapan Bangsa, Lhong Raya',
+  popup='Hall Stadion Harapan Bangsa Lhong Raya',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
