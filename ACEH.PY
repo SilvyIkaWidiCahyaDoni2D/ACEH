@@ -1,7 +1,7 @@
 import folium
 
 m = folium.Map(
-  location=[4.695135, 96.749397],
+  location=[4.695135,   96.749397],
   zoom_start=10,)
 
 folium.Marker(
@@ -149,64 +149,17 @@ folium.Marker(
   popup='Lampuuk Beach',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-folium.Marker(
-  location=[4.1763108, 95.9452556],
-  popup='Kabupaten Naganraya',
-  icon=folium.Icon(icon='info-sign')
-).add_to(m)
-folium.Marker(
-  location=[5.0829675, 96.3442381],
-  popup='Kabupaten Bireun',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[4.6309604, 96.8290581],
-  popup='Takengon, Kabupaten Aceh Tengah',
-  icon=folium.Icon(icon='info-sign')
-folium.Marker(
-  location=[4.849711, 96.1378683],
-  popup='Geumpang, Kabupaten Pidie',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[5.03486, 95.6570421],
-  popup='Tangse, Kabupaten Pidie',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[4.9335748, 97.1615209],
-  popup='Paya Bakong, Kabupaten Aceh Utara',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[5.1511109, 96.7262452],
-  popup='Cot Kala, Mane Meujingki, Kabupaten Bireuen',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[4.7509349, 96.7578312],
-  popup='Lampahan, Mude Benara, Kabupaten Bener Meriah',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[5.0518905, 96.4251633],
-  popup='Peudada, Kabupaten Bireuen',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[5.1158403, 97.0816217],
-  popup='Bayu, Kabupaten Aceh Utara',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[4.9337458,97.1615207],
-  popup='Paya Bakong, Kabupaten Aceh Utara',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[4.7280888,96.8787477],
-  popup='Isaq Busur, Kabupaten Bener Meriah',
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-  
+
+
+folium.Marker(location=[5.868271, 95.332800],popup='Sabang',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[5.901489, 95.220230],popup='Iboih',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[5.906413, 95.218188],popup='Unnamed Road',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[5.882337, 95.257476],popup='Pulau Rubiah',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[5.895571, 95.253356],popup='Pulau Seulako',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[5.846136, 95.275071],popup='Batee Shoek',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[5.824106, 95.279019],popup='Paya',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[5.879597, 95.340429],popup='Ujong Kareung',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[5.850618, 95.345770],popup='Cot Abeuk',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(location=[5.862454, 95.340713],popup='Pulau We',icon=folium.Icon(icon='info-sign')).add_to(m)
+
 m.save('index.html')
