@@ -149,5 +149,54 @@ folium.Marker(
   popup='Lampuuk Beach',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-
+folium.Marker(
+  location=[5.3924304,95.2377473],
+  popup='Leupung',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.5631582,95.3602706],
+  popup='Universitas Syiah Kuala',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folim.Marker(
+  location=[5.5707611,95.3628884],
+  popup='Museum UIN Ar-Raniry',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.587248,95.3883802],
+  popup='Kantor Camat Darussalam',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.6383714,95.4106961],
+  popup='Perumnas Ujoeng Batee',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.6332464,95.4600059],
+  popup='KAWASAN WISATA TANOH UNSYIAH',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.6451458,95.4393777],
+  popup='BP2IP Malahayati',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.3620756,95.6117036],
+  popup='Pondok Modern Gontor 10 Darul Amin',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.2100191,95.9307415,13],
+  popup='Bendungan Pinto Sa',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.5372314,95.3030284,15],
+  popup='Jl. Cut Nyak Dien',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
 m.save('index.html')
