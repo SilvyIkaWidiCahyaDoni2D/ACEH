@@ -162,4 +162,63 @@ folium.Marker(location=[5.879597, 95.340429],popup='Ujong Kareung',icon=folium.I
 folium.Marker(location=[5.850618, 95.345770],popup='Cot Abeuk',icon=folium.Icon(icon='info-sign')).add_to(m)
 folium.Marker(location=[5.862454, 95.340713],popup='Pulau We',icon=folium.Icon(icon='info-sign')).add_to(m)
 
+
+folium.Marker(
+  location=[4.021332, 96.827483],
+  popup='Persada Tongra Terangun, Kabupaten Gayo Lues',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.508936, 96.126242],
+  popup='Geudong',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.490047, 96.205635],
+  popup='Panton Reu',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.501000, 96.029854],
+  popup='Woyla Tim.',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.862339, 95.810127],
+  popup='Krueng Sabee',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.873285, 95.705757],
+  popup='Gampong Baroh',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.993687, 95.623360],
+  popup='Sampoiniet',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.692642, 95.760689],
+  popup='Panga',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.829497, 96.024361],
+  popup='Mane',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.424329, 96.392403],
+  popup='Pantai Ceuremen',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.254529, 96.293526],
+  popup='Seunagan',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+
+
+
 m.save('index.html')
