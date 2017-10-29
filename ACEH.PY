@@ -1,7 +1,7 @@
 import folium
 
 m = folium.Map(
-  location=[4.695135,   96.749397],
+  location=[4.695135, 96.749397],
   zoom_start=10,)
 
 folium.Marker(
@@ -150,53 +150,63 @@ folium.Marker(
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-  location=[5.3924304,95.2377473],
-  popup='Leupung',
+  location=[4.1763108, 95.9452556],
+  popup='Kabupaten Naganraya',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-  location=[5.5631582,95.3602706],
-  popup='Universitas Syiah Kuala',
+  location=[5.0829675, 96.3442381],
+  popup='Kabupaten Bireun',
   icon=folium.Icon(icon='info-sign')
-).add_to(m)
-folim.Marker(
-  location=[5.5707611,95.3628884],
-  popup='Museum UIN Ar-Raniry',
-  icon=folium.Icon(icon='info-sign')
-).add_to(m)
+  ).add_to(m)
 folium.Marker(
-  location=[5.587248,95.3883802],
-  popup='Kantor Camat Darussalam',
+  location=[4.6309604, 96.8290581],
+  popup='Takengon, Kabupaten Aceh Tengah',
   icon=folium.Icon(icon='info-sign')
-).add_to(m)
 folium.Marker(
-  location=[5.6383714,95.4106961],
-  popup='Perumnas Ujoeng Batee',
+  location=[4.849711, 96.1378683],
+  popup='Geumpang, Kabupaten Pidie',
   icon=folium.Icon(icon='info-sign')
-).add_to(m)
+  ).add_to(m)
 folium.Marker(
-  location=[5.6332464,95.4600059],
-  popup='KAWASAN WISATA TANOH UNSYIAH',
+  location=[5.03486, 95.6570421],
+  popup='Tangse, Kabupaten Pidie',
   icon=folium.Icon(icon='info-sign')
-).add_to(m)
+  ).add_to(m)
 folium.Marker(
-  location=[5.6451458,95.4393777],
-  popup='BP2IP Malahayati',
+  location=[4.9335748, 97.1615209],
+  popup='Paya Bakong, Kabupaten Aceh Utara',
   icon=folium.Icon(icon='info-sign')
-).add_to(m)
+  ).add_to(m)
 folium.Marker(
-  location=[5.3620756,95.6117036],
-  popup='Pondok Modern Gontor 10 Darul Amin',
+  location=[5.1511109, 96.7262452],
+  popup='Cot Kala, Mane Meujingki, Kabupaten Bireuen',
   icon=folium.Icon(icon='info-sign')
-).add_to(m)
+  ).add_to(m)
 folium.Marker(
-  location=[5.2100191,95.9307415,13],
-  popup='Bendungan Pinto Sa',
+  location=[4.7509349, 96.7578312],
+  popup='Lampahan, Mude Benara, Kabupaten Bener Meriah',
   icon=folium.Icon(icon='info-sign')
-).add_to(m)
+  ).add_to(m)
 folium.Marker(
-  location=[5.5372314,95.3030284,15],
-  popup='Jl. Cut Nyak Dien',
+  location=[5.0518905, 96.4251633],
+  popup='Peudada, Kabupaten Bireuen',
   icon=folium.Icon(icon='info-sign')
-).add_to(m)
+  ).add_to(m)
+folium.Marker(
+  location=[5.1158403, 97.0816217],
+  popup='Bayu, Kabupaten Aceh Utara',
+  icon=folium.Icon(icon='info-sign')
+  ).add_to(m)
+folium.Marker(
+  location=[4.9337458,97.1615207],
+  popup='Paya Bakong, Kabupaten Aceh Utara',
+  icon=folium.Icon(icon='info-sign')
+  ).add_to(m)
+folium.Marker(
+  location=[4.7280888,96.8787477],
+  popup='Isaq Busur, Kabupaten Bener Meriah',
+  icon=folium.Icon(icon='info-sign')
+  ).add_to(m)
+  
 m.save('index.html')
