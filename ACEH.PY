@@ -263,7 +263,59 @@ folium.Marker(
   popup='Karang Baru',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-
+folium.Marker(
+  location=[4.086729, 96.672382],
+  popup='Krueng Alem',
+  icon=folium.Icon(icon='info-sign')
+  ).add_to(m)
+folium.Marker(
+  location=[4.145971, 96.432056],
+  popup='Alue Sepeng',
+  icon=folium.Icon(icon='info-sign')
+   ).add_to(m)
+folium.Marker(
+  location=[5.357149, 95.283201],
+  popup='Leupung',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.090838, 96.410083]
+  popup='Gunong Geulugo'
+  icon=folium.Icon(icon='info-sign')
+  ).add_to(m)
+folium.Marker(
+  location=[4.119261, 96.472568]
+  popup='Babah Rot'
+  icon=folium.Icon(icon='info-sign')
+  ).add_to(m)
+folium.Marker(
+  location=[4.136040, 96.568012]
+  popup='Blang Luah'
+  icon=folium.Icon(icon='info-sign')
+   ).add_to(m)
+folium.Marker(
+  location=[5.187582, 96.645506]
+  popup='Kabupaten Bireun'
+  icon=folium.Icon(icon='info-sign')
+   ).add_to(m)
+folium.Marker(
+  location=[5.154757, 96.293944]
+  popup='Kabupaten Pidie Jaya'
+  icon=folium.Icon(icon='info-sign')
+  ).add_to(m)
+folium.Marker(
+  location=[4.508871, 95.777586]
+  popup='Teunom'
+  icon=folium.Icon(icon='info-sign')
+   ).add_to(m)
+folium.Marker(
+  location=[3.989141, 96.512983]
+  popup='Tuwi Buya'
+  icon=folium.Icon(icon='info-sign')
+  
+  
+  
+  
 
 
 m.save('index.html')
