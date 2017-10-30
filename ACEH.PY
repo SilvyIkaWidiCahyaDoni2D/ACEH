@@ -218,6 +218,51 @@ folium.Marker(
   popup='Seunagan',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+  location=[4.5065868, 97.9302927],
+  popup='Langsa, Kota Langsa',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.1720572, 97.0375946],
+  popup='	Kota Lhokseumawe',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.9670211, 5.0957705],
+  popup='Kota Sabang',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.7578791, 97.6614605],
+  popup='Kota Subulussalam',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.4520047, 95.9055919],
+  popup='Kabupaten Aceh Barat',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.8122858, 95.1058125],
+  popup='Kabupaten Aceh Jayat',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.6338398, 95.5730575],
+  popup='Calang, Bahagia, Kabupaten Aceh Jaya',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.186493,95.5404471],
+  popup='Kota Jantho',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.3313354, 97.9990071],
+  popup='Karang Baru',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
 
 
 
