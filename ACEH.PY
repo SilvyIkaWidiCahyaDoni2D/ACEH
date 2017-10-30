@@ -312,7 +312,6 @@ folium.Marker(
   location=[3.989141, 96.512983]
   popup='Tuwi Buya'
   icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
   
 folium.Marker(location=[2.572206, 96.225522],popup='Air Pinang',icon=folium.Icon(icon='info-sign')).add_to(m)
 folium.Marker(location=[2.592098, 96.135572],popup='Luan Balu',icon=folium.Icon(icon='info-sign')).add_to(m)
@@ -324,62 +323,60 @@ folium.Marker(location=[2.446670, 96.323026],popup='Batu Batu',icon=folium.Icon(
 folium.Marker(location=[2.479599, 96.247495],popup='Salur Latun',icon=folium.Icon(icon='info-sign')).add_to(m)
 folium.Marker(location=[2.546139, 96.246808],popup='Air Pinang',icon=folium.Icon(icon='info-sign')).add_to(m)
 folium.Marker(location=[2.549569, 96.316846],popup='Ganting',icon=folium.Icon(icon='info-sign')).add_to(m)
-
-folium.Marker(
-  location=[2.697730, 95.814018]
-  popup='Salang'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[2.803352, 95.811271]
-  popup='Miteum'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[2.688128, 95.967826]
-  popup='Simeulue Tengah'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[2.581125, 96.149101]
-  popup='Dihit'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[2.498808, 96.220512]
-  popup='Teupah Bar.'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[2.583868, 96.215019]
-  popup='Tlk. Dalam.'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[2.669543, 96.055556]
-  popup='Lambaya'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[2.754592, 95.775405]
-  popup='Alafan'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[2.568026, 96.217604]
-  popup='Air Pinang'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-folium.Marker(
-  location=[2.101496, 96.654311]
-  popup='Pulau Babi'
-  icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
-
-
-
-
   
-
+  
+folium.Marker(
+  location=[5.5314922,95.385386,13],
+  popup='Universitas Abulyatama',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+    locatiion=[5.5521747,95.372461,13],
+    popup='Stmik Abulyatama',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+    location=[5.5531961,95.3173653],
+    popup='Akademi Perikanan Dan Ilmu Kelautan',
+    icon=folium.Icon(icon='info-sign')
+ ).add_to(m)
+  folium.Marker(
+    location=[5.5531961,95.3173653],
+    popup='Akademi Kebidanan Saleha',
+    icon=folium.icon(icon='info-sign')
+ ).add_to(m)
+  folium.Marker(
+    location=[5.5531961,95.3173653]
+    popup='Universitas Serambi Mekkah',
+    icon=folium.icon(icon='info-sign')
+ ).add_to(m)
+  folium.Marker(
+    location=[5.5531961,95.3173653],
+    popup='Toko Buku NEW ZIKRA',
+    icon=folium.icon(icon='info-sign')
+ ).add_to(m)
+  folium.Marker(
+    location=[5.5528544,95.3034607,13],
+    popup='Badan Pemberdayaan Masyarakat',
+    icon=folium.icon(icon='info-sign')
+ ).add_to(m)
+  folium.Marker(
+    location=[5.5614688,95.327047,16],
+    popup='88 hotel atjeh',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker( 
+    location=[5.5613162,95.3300383,17],
+    popup='SMAN 3 Banda Aceh',
+    icon=folium.icon(icon='info-sign')
+ ).add_to(m)
+  folium.Marker(
+    location=[5.5613162,95.3300383,17]
+    popup='MTsN Model Banda Aceh;,
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  
+  
+  
 
 m.save('index.html')
