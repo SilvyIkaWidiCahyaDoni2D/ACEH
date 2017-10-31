@@ -554,6 +554,57 @@ folium.Marker(
     popup='Naibos',
     icon=folium.icon(icon='info-sign')
 ).add_to(m)
+
+folium.Marker(
+  location=[4.457239,97.9676183,15],
+  popup='IAIN Langsa',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location[4.457239,97.9676183,15],
+  popup='Universitas Samudra',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.4683234,97.9678442,16],
+  popup='RSUD Langsa',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.4713258,97.9664169,17],
+  popup='Taman Bambu Runcing',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.4713258,97.9664169,17],
+  popup='Ibams Coffee',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.4713258,97.9664169,17],
+  popup='Stasiun Kupi',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.4711097,97.9680125,17]
+  popup='Bank Mandiri Langsa',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.469669,97.9722034,17],
+  popup='Fish Market Kota Langsa',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.6516293,96.8304486,18],
+  popup='Apotek Kaisara',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.649122,96.8329087,18],
+  popup='Waroeng Bebek Ijo Binjai',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
   
   
 m.save('index.html')
