@@ -151,16 +151,56 @@ folium.Marker(
 ).add_to(m)
 
 
-folium.Marker(location=[5.868271, 95.332800],popup='Sabang',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[5.901489, 95.220230],popup='Iboih',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[5.906413, 95.218188],popup='Unnamed Road',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[5.882337, 95.257476],popup='Pulau Rubiah',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[5.895571, 95.253356],popup='Pulau Seulako',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[5.846136, 95.275071],popup='Batee Shoek',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[5.824106, 95.279019],popup='Paya',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[5.879597, 95.340429],popup='Ujong Kareung',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[5.850618, 95.345770],popup='Cot Abeuk',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[5.862454, 95.340713],popup='Pulau We',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(
+  location=[5.868271, 95.332800],
+  popup='Sabang',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.901489, 95.220230],
+  popup='Iboih',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.906413, 95.218188],
+  popup='Unnamed Road',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.882337, 95.257476],
+  popup='Pulau Rubiah',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.895571, 95.253356],
+  popup='Pulau Seulako',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.846136, 95.275071],
+  popup='Batee Shoek',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.824106, 95.279019],
+  popup='Paya',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.879597, 95.340429],
+  popup='Ujong Kareung',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.850618, 95.345770],
+  popup='Cot Abeuk',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.862454, 95.340713],
+  popup='Pulau We',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
 
 
 folium.Marker(
