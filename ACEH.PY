@@ -149,8 +149,6 @@ folium.Marker(
   popup='Lampuuk Beach',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-
-
 folium.Marker(
   location=[5.868271, 95.332800],
   popup='Sabang',
@@ -201,8 +199,6 @@ folium.Marker(
   popup='Pulau We',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-
-
 folium.Marker(
   location=[4.021332, 96.827483],
   popup='Persada Tongra Terangun, Kabupaten Gayo Lues',
@@ -307,12 +303,12 @@ folium.Marker(
   location=[4.086729, 96.672382],
   popup='Krueng Alem',
   icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
+).add_to(m)
 folium.Marker(
   location=[4.145971, 96.432056],
   popup='Alue Sepeng',
   icon=folium.Icon(icon='info-sign')
-   ).add_to(m)
+ ).add_to(m)
 folium.Marker(
   location=[5.357149, 95.283201],
   popup='Leupung',
@@ -322,37 +318,37 @@ folium.Marker(
   location=[4.090838, 96.410083]
   popup='Gunong Geulugo'
   icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
+).add_to(m)
 folium.Marker(
   location=[4.119261, 96.472568]
   popup='Babah Rot'
   icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
+).add_to(m)
 folium.Marker(
   location=[4.136040, 96.568012]
   popup='Blang Luah'
   icon=folium.Icon(icon='info-sign')
-   ).add_to(m)
+ ).add_to(m)
 folium.Marker(
   location=[5.187582, 96.645506]
   popup='Kabupaten Bireun'
   icon=folium.Icon(icon='info-sign')
-   ).add_to(m)
+).add_to(m)
 folium.Marker(
   location=[5.154757, 96.293944]
   popup='Kabupaten Pidie Jaya'
   icon=folium.Icon(icon='info-sign')
-  ).add_to(m)
+).add_to(m)
 folium.Marker(
   location=[4.508871, 95.777586]
   popup='Teunom'
   icon=folium.Icon(icon='info-sign')
-   ).add_to(m)
+).add_to(m)
 folium.Marker(
   location=[3.989141, 96.512983]
   popup='Tuwi Buya'
   icon=folium.Icon(icon='info-sign')
-  
+ ).add_to(m)
 folium.Marker(
   location=[2.572206, 96.225522],
   popup='Air Pinang',
@@ -403,161 +399,161 @@ folium.Marker(
   popup='Ganting',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-  
-  
 folium.Marker(
   location=[5.5314922,95.385386,13],
   popup='Universitas Abulyatama',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-  folium.Marker(
+folium.Marker(
     locatiion=[5.5521747,95.372461,13],
     popup='Stmik Abulyatama',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-  folium.Marker(
+folium.Marker(
     location=[5.5531961,95.3173653],
     popup='Akademi Perikanan Dan Ilmu Kelautan',
     icon=folium.Icon(icon='info-sign')
- ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.5531961,95.3173653],
     popup='Akademi Kebidanan Saleha',
     icon=folium.icon(icon='info-sign')
- ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.5531961,95.3173653]
     popup='Universitas Serambi Mekkah',
     icon=folium.icon(icon='info-sign')
- ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.5531961,95.3173653],
     popup='Toko Buku NEW ZIKRA',
     icon=folium.icon(icon='info-sign')
- ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.5528544,95.3034607,13],
     popup='Badan Pemberdayaan Masyarakat',
     icon=folium.icon(icon='info-sign')
- ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.5614688,95.327047,16],
     popup='88 hotel atjeh',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker( 
+).add_to(m)
+folium.Marker( 
     location=[5.5613162,95.3300383,17],
     popup='SMAN 3 Banda Aceh',
     icon=folium.icon(icon='info-sign')
- ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.5613162,95.3300383,17]
     popup='MTsN Model Banda Aceh;,
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[4.560078, 96.790258]
     popup='Pegasing',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[4.524262, 95.784252]
     popup='Tuwi Kareung Panga',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[4.638098, 97.020142]
     popup='Hutan Syiah Utama Sel.',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-   folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[4.159119, 96.142497]
     popup='Meulaboh',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[4.029476, 97.772076]
     popup='Pertik',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.050723, 95.635235]
     popup='Blang Luah',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[4.020514, 97.013798]
     popup='Bukut',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.400694, 95.962064]
     popup='Selat Malaka',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.408190, 95.294083]
     popup='Leupung',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
+).add_to(m)
+folium.Marker(
     location=[5.242617, 95.557376]
     popup='Kota Jantho',
     icon=folium.icon(icon='info-sign')
-  ).add_to(m)
+).add_to(m)
+folium.Marker(
+    location=[2.205858, 97.244300]
+    popup='Pulau Tuangku',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.204485, 97.177009]
+    popup='Asantola',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.091717, 97.338180]
+    popup='Haloban',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.349702, 97.398605]
+    popup='Pulau Banyak',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.179547, 97.431564]
+    popup='Pulau Baguk',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.072504, 97.101974]
+    popup='Pulau Bangkaru',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.168568, 96.621322]
+    popup='Pulau Lasia',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.391265, 96.423824]
+    popup='Kebun Baru',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.365195, 96.400478]
+    popup='Batu Ralang',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.494619, 96.258466]
+    popup='Salur Latun',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[2.511082, 96.204049]
+    popup='Naibos',
+    icon=folium.icon(icon='info-sign')
+).add_to(m)
   
   
-   folium.Marker(
-    location=[2.482407, 97.924080]
-    popup='Kota Baharu',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
-    location=[2.273547, 98.067795]
-    popup='Danau Paris',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
-    location=[2.417142, 98.054730]
-    popup='Kabupaten Aceh Singkil',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-   folium.Marker(
-    location=[2.475545, 97.714077]
-    popup='Trumon',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
-    location=[2.569700, 97.736696]
-    popup='Gampong Tengah',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
-    location=[2.577232, 97.879950]
-    popup='Longkib',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
-    location=[2.468013, 97.706537]
-    popup='Raket',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
-    location=[2.505676, 97.985506]
-    popup='Kec. Suro Makmur',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
-    location=[2.626190, 97.902569]
-    popup='Rundeng',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  folium.Marker(
-    location=[2.757989, 97.925188]
-    popup='Sultan Daulat',
-    icon=folium.icon(icon='info-sign')
-  ).add_to(m)
-  
-   
-
 m.save('index.html')
