@@ -507,12 +507,57 @@ folium.Marker(
   ).add_to(m)
   
   
+   folium.Marker(
+    location=[2.482407, 97.924080]
+    popup='Kota Baharu',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[2.273547, 98.067795]
+    popup='Danau Paris',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[2.417142, 98.054730]
+    popup='Kabupaten Aceh Singkil',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+   folium.Marker(
+    location=[2.475545, 97.714077]
+    popup='Trumon',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[2.569700, 97.736696]
+    popup='Gampong Tengah',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[2.577232, 97.879950]
+    popup='Longkib',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[2.468013, 97.706537]
+    popup='Raket',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[2.505676, 97.985506]
+    popup='Kec. Suro Makmur',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[2.626190, 97.902569]
+    popup='Rundeng',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[2.757989, 97.925188]
+    popup='Sultan Daulat',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
   
-  
-  
-  
-  
-  
-  
+   
 
 m.save('index.html')
