@@ -610,6 +610,61 @@ folium.Marker(
   popup='Meulaboh, Kabupaten Aceh Barat',
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+  location=[4.6309604,96.8290581],
+  popup='Takengon',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.7509349,96.7578312],
+  popup='Lampahan, Mude Benara, Kabupaten Bener Meriah, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.7139139,96.8563036],
+  popup='Tingkem Benyer, Kabupaten Bener Meriah, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.7399133,96.7874634],
+  popup='Simpang Balek, Kabupaten Bener Meriah, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.6357725,96.8403251],
+  popup='Simpang Empat, Kabupaten Aceh Tengah, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.7346177,96.7931669],
+  popup='Pante Raya, Kabupaten Bener Meriah, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.0642054,96.7482257],
+  popup='Sawang, Kabupaten Aceh Utara, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.1951285,97.0098696],
+  popup='Jalan Elak, Kabupaten Aceh Utara, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.2162534,97.0182723],
+  popup='Paloh Gadeng, Kabupaten Aceh Utara, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.1738861,96.9756457],
+  popup='Nisam, Kabupaten Aceh Utara, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.18403,96.9392327],
+  popup='Banda Baro, Kabupaten Aceh Utara, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
   
   
 m.save('index.html')
