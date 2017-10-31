@@ -313,16 +313,56 @@ folium.Marker(
   popup='Tuwi Buya'
   icon=folium.Icon(icon='info-sign')
   
-folium.Marker(location=[2.572206, 96.225522],popup='Air Pinang',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[2.592098, 96.135572],popup='Luan Balu',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[2.599644, 96.112226],popup='Sambai',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[2.634626, 96.087507],popup='Kuala Bakti',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[2.426089, 96.495374],popup='Labuhan Bakti',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[2.455588, 96.451429],popup='Lataling',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[2.446670, 96.323026],popup='Batu Batu',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[2.479599, 96.247495],popup='Salur Latun',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[2.546139, 96.246808],popup='Air Pinang',icon=folium.Icon(icon='info-sign')).add_to(m)
-folium.Marker(location=[2.549569, 96.316846],popup='Ganting',icon=folium.Icon(icon='info-sign')).add_to(m)
+folium.Marker(
+  location=[2.572206, 96.225522],
+  popup='Air Pinang',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.592098, 96.135572],
+  popup='Luan Balu',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.599644, 96.112226],
+  popup='Sambai',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.634626, 96.087507],
+  popup='Kuala Bakti',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.426089, 96.495374],
+  popup='Labuhan Bakti',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.455588, 96.451429],
+  popup='Lataling',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.446670, 96.323026],
+  popup='Batu Batu',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.479599, 96.247495],
+  popup='Salur Latun',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.546139, 96.246808],
+  popup='Air Pinang',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.549569, 96.316846],
+  popup='Ganting',
+  icon=folium.Icon(icon='info-sign')
+).add_to(m)
   
   
 folium.Marker(
