@@ -605,6 +605,11 @@ folium.Marker(
   popup='Waroeng Bebek Ijo Binjai',
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+  location=[4.1583434,96.1110499],
+  popup='Meulaboh, Kabupaten Aceh Barat',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
   
   
 m.save('index.html')
