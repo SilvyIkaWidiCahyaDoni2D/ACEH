@@ -375,6 +375,62 @@ folium.Marker(
     popup='MTsN Model Banda Aceh;,
     icon=folium.icon(icon='info-sign')
   ).add_to(m)
+  folium.Marker(
+    location=[4.560078, 96.790258]
+    popup='Pegasing',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[4.524262, 95.784252]
+    popup='Tuwi Kareung Panga',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[4.638098, 97.020142]
+    popup='Hutan Syiah Utama Sel.',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+   folium.Marker(
+    location=[4.159119, 96.142497]
+    popup='Meulaboh',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[4.029476, 97.772076]
+    popup='Pertik',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[5.050723, 95.635235]
+    popup='Blang Luah',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[4.020514, 97.013798]
+    popup='Bukut',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[5.400694, 95.962064]
+    popup='Selat Malaka',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[5.408190, 95.294083]
+    popup='Leupung',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  folium.Marker(
+    location=[5.242617, 95.557376]
+    popup='Kota Jantho',
+    icon=folium.icon(icon='info-sign')
+  ).add_to(m)
+  
+  
+  
+  
+  
+  
   
   
   
