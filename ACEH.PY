@@ -848,5 +848,10 @@ folium.Marker(
   popup='Selok Aceh',
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+  location=[4.9335748,97.1615209],
+  popup='Paya Bakong, Kabupaten Aceh Utara, Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
 
 m.save('index.html')
