@@ -665,6 +665,56 @@ folium.Marker(
   popup='Banda Baro, Kabupaten Aceh Utara, Aceh',
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+  location=[5.098764, 96.353761],
+  popup='Bandar Dua',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.232972, 95.602515],
+  popup='Jantho',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.900749, 95.588472],
+  popup='Krueng Tho',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.760816, 95.497191],
+  popup='Sawang',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.414747, 95.911466],
+  popup='Batee',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[5.173534, 96.483728],
+  popup='Pandrah',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.423289, 97.824776],
+  popup='Jambur Labu',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.280607, 96.409161],
+  popup='Beutong',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[3.138267, 97.395492],
+  popup='Kluet Utara',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[3.077031, 98.003644],
+  popup='Mangan Molih',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
   
   
 m.save('index.html')
