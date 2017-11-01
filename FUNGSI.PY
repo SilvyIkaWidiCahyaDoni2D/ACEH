@@ -90,3 +90,38 @@ def perkalian(x, y):
 # program utama mulai di sini 
 	perkalian = (10*2)
 	print (perkalian (y = 15,x = 5))
+
+	def login(username="admin", password="aa"):
+	print ("Your username ",username) 
+	print ("Your password ",password) 
+
+print
+
+login() 
+login("tamu") 
+login("tamu", "katakunci")
+
+
+def login(username="tamu", password="passwd"):
+	print ("Your username ",username) 
+	print ("Your password ",password) 
+	print
+
+usernm="tamu" 
+passwd="cc"
+login() 
+
+
+def guest(name, password, *hobby):
+	print ("Your name    :",name)
+	print ("Your password:",password) 
+	print ("Hobby Anda   :",hobby)
+guest("tamu", "katakunci", "memancing", "membaca", "olahraga") 
+
+
+def guest(name, password, **other):
+	print ("Your name    :",name)
+	print ("Your password:",password) 
+	print ("Lain-lain    :",other)
+
+guest("tamu", "katakunci", sex="laki-laki", umur=18, hobby="membaca") 
