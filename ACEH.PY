@@ -798,5 +798,55 @@ folium.Marker(
   popup='Pulau Babi',
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
-  
+folium.Marker(
+  location=[2.444613, 97.711219],
+  popup='Raket',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.439125, 97.815589],
+  popup='Kota Baharu',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.333385, 97.904677],
+  popup='Pertampakan',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.481241, 97.754302],
+  popup='Gampong Tengah',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.422244, 97.773528],
+  popup='Tlk. Rumbia',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.371477, 97.839446],
+  popup='Pea Bumbung',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.399605, 97.680144],
+  popup='Suka Jaya',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.436828, 97.819876],
+  popup='Ladang Bisik',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.450548, 97.792410],
+  popup='Lapahan Buaya',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.334240, 97.831090],
+  popup='Selok Aceh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+
 m.save('index.html')
