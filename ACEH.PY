@@ -716,5 +716,55 @@ folium.Marker(
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
   
+folium.Marker(
+  location=[2.907538, 97.880288],
+  popup='Trumon Tim.',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.092676, 97.832000],
+  popup='Kec. Babul Rahman',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.320018, 97.401256],
+  popup='Samudra Hindia',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.172318, 97.438210],
+  popup='Pulau Baguk',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.079998, 97.110248],
+  popup='Pulau Bangkaru',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[2.279603, 97.270927],
+  popup='Haloban',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[2.320768, 97.225608],
+  popup='Tlk. Nibung',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[2.179428, 97.437095],
+  popup='Pulau Baguk',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[2.213735, 97.125358],
+  popup='Asantola',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[2.084737, 96.637839],
+  popup='Pulau Babi',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
   
 m.save('index.html')
