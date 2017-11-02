@@ -904,7 +904,56 @@ folium.Marker(
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
 
-
+folium.Marker(
+  location=[3.199001, 97.458051],
+  popup='Kluet Tim.',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.166093, 97.694257],
+  popup='Hutan',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.484159, 97.1559276],
+  popup='Meukek',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.692490, 97.386640],
+  popup='Putri Betung',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.741825, 97.013105],
+  popup='Hutan Blangpidie',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.010374, 97.782148],
+  popup='Pertik',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[3.889811, 97.622846],
+  popup='Blangtemung',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[3.692490, 97.716230],
+  popup='Ketambe',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[3.922694, 97.661298],
+  popup='Pintu Rime',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.804521, 97.326215],
+  popup='Hutan',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
 
 
 
