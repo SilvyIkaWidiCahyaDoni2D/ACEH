@@ -853,5 +853,60 @@ folium.Marker(
   popup='Paya Bakong, Kabupaten Aceh Utara, Aceh',
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+  location=[4.072104, 96.393694],
+  popup='Tadu Raya',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.182104, 97.918042],
+  popup='Lauser',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.809306, 98.063218],
+  popup='Penuntungan',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.640788, 95.636705],
+  popup='Krueng Sabee',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.496074, 98.094327],
+  popup='Manyak Payed',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.227242, 98.021739],
+  popup='Kejuruan Muda',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.622988, 95.428234],
+  popup='Darussalam',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.838365, 95.452703],
+  popup='Babah Nipah',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.233236, 96.803407],
+  popup='Jangka',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[5.603507, 95.589731],
+  popup='Lamreh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+
+
+
+
+
 
 m.save('index.html')
