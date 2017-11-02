@@ -1004,6 +1004,136 @@ folium.Marker(
   popup='Tadu Raya',
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+  location=[3.0176834, 97.5612038],
+  popup='Alur Dua Mas',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.0455862, 97.5046413],
+  popup='Beutong',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9918179, 97.4515392],
+  popup='Bukit Gading',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.4621579, 97.9776423],
+  popup='Gampong Baro',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[4.1567174, 96.1209121],
+  popup='Drien Rampak',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.0404027, 97.5189393],
+  popup='Jambo Keupok',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9300844, 7.4625416],
+  popup='Keude Bakongan',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9726289, 97.5074177],
+  popup='Rambong',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9557534, 97.5499033],
+  popup='Seneubok Alur Bulah',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.0541172,97.4614924],
+  popup='Seunebok Keranji',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.0482917, 97.4917939],
+  popup='Ujung Gunong Rayek',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9481655, 97.4881798],
+  popup='Ujung Gunung Cut ',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9536734, 97.3942737],
+  popup='Ujung Mangk',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9603464, 97.4353212],
+  popup='Ujung Padang',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9486944, 97.5022408],
+  popup='Ujung Tanoh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.90841, 97.5294162],
+  popup='Ladang Rimba',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.894834, 97.5389398],
+  popup='Pasi Seubadeh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9063503, 97.5551019],
+  popup='Sawah Tingkeum',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.9069725, 97.5586953],
+  popup='Seulekat',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.912255, 97.5035872],
+  popup='Ujung Pulo Cut',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[2.8985919, 97.5100288],
+  popup='Ujung Pulo Rayeuk',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.047345, 97.3285258],
+  popup='Indra Damai',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.0682725, 97.3265981],
+  popup='Jua',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.0617815, 97.3306073],
+  popup='Kapeh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.0638409, 97.3199562],
+  popup='Kedai Kandang',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+  location=[3.0660635, 97.3333424],
+  popup='Kedai Runding',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
 
 
 m.save('index.html')
