@@ -954,8 +954,56 @@ folium.Marker(
   popup='Hutan',
   icon=folium.icon(icon='info-sign')
 ).add_to(m)
-
-
+  folium.Marker(
+  location=[4.612994, 95.783960],
+  popup='Panga',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.482755, 95.826421],
+  popup='Teunom',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.401344, 95.993000],
+  popup='Woyla Bar.',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.313410, 96.071390],
+  popup='Bubon',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.674849, 95.679439],
+  popup='Buntha',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.808307, 95.682706],
+  popup='Setia Bakti',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.931977, 95.744764],
+  popup='Gampong Baroh',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[5.003564, 95.398542],
+  popup='Indra Jaya',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[5.120691, 95.601049],
+  popup='Mareu',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
+  folium.Marker(
+  location=[4.157058, 96.378418],
+  popup='Tadu Raya',
+  icon=folium.icon(icon='info-sign')
+).add_to(m)
 
 
 m.save('index.html')
