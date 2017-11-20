@@ -2,33 +2,7 @@
 
 import folium
 
-def inisiasi(long,lat):
-	m = folium.Map(
-    location=[long,lat],
-    zoom_start=12,
-    tiles='Stamen Terrain')
-	return m
-	
-def hitam(long,lat):
-	c = folium.Map(
-    location=[long,lat],
-    zoom_start=12,
-    tiles='Stamen Toner')	
-	return c
 
-def masukkin(apa,ini):
-	d = folium.Map(
-	location=[apa,ini],
-	zoom_start=12,
-    tiles='Stamen Terrain')	
-	return d
-	
-def simpan(anu,gede):
-	anu.save(gede)
-
-d = masukkin(-6.966667, 110.416667)
-c = hitam(-6.966667, 110.416667)
-m = inisiasi(-6.966667, 110.416667)
 tooltip = 'Click me!'
 
 
@@ -44,11 +18,6 @@ folium.Marker(
 folium.Marker(
   location=[4.377438, 97.161121],
   popup='Linge',
-  icon=folium.Icon(icon='info-sign')
-).add_to(m)
-folium.Marker(
-  location=[5.403978, 94.8649394],
-  popup='Kabupaten Aceh Besar',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
@@ -104,11 +73,6 @@ folium.Marker(
 folium.Marker(
   location=[3.8354523, 96.5870526],
   popup='Kab. Aceh Barat Daya',
-  icon=folium.Icon(icon='info-sign')
-).add_to(m)
-folium.Marker(
-  location=[3.0700274, 96.8644272],
-  popup='Kab. Aceh selatan',
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
@@ -312,11 +276,6 @@ folium.Marker(
   icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-  location=[4.8122858, 95.1058125],
-  popup='Kabupaten Aceh Jayat',
-  icon=folium.Icon(icon='info-sign')
-).add_to(m)
-folium.Marker(
   location=[4.6338398, 95.5730575],
   popup='Calang, Bahagia, Kabupaten Aceh Jaya',
   icon=folium.Icon(icon='info-sign')
@@ -471,7 +430,7 @@ folium.Marker(
     popup='88 hotel atjeh',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-folium.Marker( 
+folium.Marker(
     location=[5.5613162,95.3300383,17],
     popup='SMAN 3 Banda Aceh',
     icon=folium.Icon(icon='info-sign')
@@ -745,7 +704,7 @@ folium.Marker(
   location=[3.077031, 98.003644],
   popup='Mangan Molih',
   icon=folium.Icon(icon='info-sign')
-).add_to(m)  
+).add_to(m)
 folium.Marker(
   location=[2.907538, 97.880288],
   popup='Trumon Tim.',

@@ -1,7 +1,7 @@
 def halo_dunia(Halo_Dunia):
     print (Halo_Dunia)
 
-halo_dunia("hay") 
+halo_dunia("hello")
 
 
 def ucapan(Anda_ada_pada_fungsi):
@@ -11,117 +11,117 @@ ucapan("Anda ada pada fungsi")
 
 
 def perkalian(a,b):
-	c = a*b 
+	c = a*b
 	return c
 
 # Program Utama
 print( perkalian(5,10))
 
 
-def contohScope(X): 
+def contohScope(X):
 	X = 10
 	print (X)
 
 # program utama
 X = 30
-print (contohScope(X)) 
+print (contohScope(X))
 
-# fungsi mulai di sini 
+# fungsi mulai di sini
 def swap(x, y):
-	print ("Dalam fungsi:") 
-	print ("\tSebelum proses:") 
-	print ("\t\tNilai x", x) 
+	print ("Dalam fungsi:")
+	print ("\tSebelum proses:")
+	print ("\t\tNilai x", x)
 	print ("\t\tNilai y", y)
-	z = x 
-	x = y 
+	z = x
+	x = y
 	y = z
-	print ("\tSetelah proses:") 
-	print ("\t\tNilai x", x) 
+	print ("\tSetelah proses:")
+	print ("\t\tNilai x", x)
 	print ("\t\tNilai y", y)
 
-# program utama mulai di sini 
+# program utama mulai di sini
 x = 12
 y = 3
-print ("Sebelum memanggil fungsi, x bernilai", x) 
-print ("Sebelum memanggil fungsi, y bernilai", y) 
+print ("Sebelum memanggil fungsi, x bernilai", x)
+print ("Sebelum memanggil fungsi, y bernilai", y)
 swap(x,y)
 print ("Setelah memanggil fungsi, x bernilai", x)
 print ("Setelah memanggil fungsi, y bernilai", y)
 
 def faktorial(nilai):
 		if nilai <= 1:
-			return 1 
+			return 1
 		else:
- 
 
-			return nilai * faktorial(nilai - 1) 
+
+			return nilai * faktorial(nilai - 1)
 
 #Program utama
 for i in range(11):
-	print (i, faktorial(i)) 
+	print (i, faktorial(i))
 
 def perkalian(a,b):
-	c = a*b 
+	c = a*b
 	return c
 
 # Program Utama
 print( perkalian(5,10))
 
-# Fungsi Fibonacci 
-def fibonacci(n): 
+# Fungsi Fibonacci
+def fibonacci(n):
 	if n < 0:
 		print ("Tidak ada bilangan yang bernilai negatif")
 	if n == 0 or n == 1:
-		return n 
+		return n
 	else:
-		return fibonacci(n-1) + fibonacci(n-2) 
- 
+		return fibonacci(n-1) + fibonacci(n-2)
+
 # Program utama
 # nilai = int(raw_input("Masukkan sebuah bilangan : " ))
 # hasil = fibonacci(nilai)
-print (20,6765) 
+print (20,6765)
 
 def perkalian(x, y):
 	z = x * y
 	print ("Nilai x =",x)
-	print ("Nilai y =",y) 
+	print ("Nilai y =",y)
 	print ("x * y =",z)
 
-# program utama mulai di sini 
+# program utama mulai di sini
 	perkalian = (10*2)
 	print (perkalian (y = 15,x = 5))
 
 	def login(username="admin", password="aa"):
-	print ("Your username ",username) 
-	print ("Your password ",password) 
+	print ("Your username ",username)
+	print ("Your password ",password)
 
 print
 
-login() 
-login("tamu") 
+login()
+login("tamu")
 login("tamu", "katakunci")
 
 
 def login(username="tamu", password="passwd"):
-	print ("Your username ",username) 
-	print ("Your password ",password) 
+	print ("Your username ",username)
+	print ("Your password ",password)
 	print
 
-usernm="tamu" 
+usernm="tamu"
 passwd="cc"
-login() 
+login()
 
 
 def guest(name, password, *hobby):
 	print ("Your name    :",name)
-	print ("Your password:",password) 
+	print ("Your password:",password)
 	print ("Hobby Anda   :",hobby)
-guest("tamu", "katakunci", "memancing", "membaca", "olahraga") 
+guest("tamu", "katakunci", "memancing", "membaca", "olahraga")
 
 
 def guest(name, password, **other):
 	print ("Your name    :",name)
-	print ("Your password:",password) 
+	print ("Your password:",password)
 	print ("Lain-lain    :",other)
 
-guest("tamu", "katakunci", sex="laki-laki", umur=18, hobby="membaca") 
+guest("tamu", "katakunci", sex="laki-laki", umur=18, hobby="membaca")
