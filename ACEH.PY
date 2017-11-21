@@ -1,9 +1,35 @@
 #!/bin/python
 
 import folium
+def  inisiasi ( panjang , lat ):
+	m = folium.Map (
+    lokasi = [ panjang , lat],
+    zoom_start = 12 ,
+    ubin = ' medan stamen ' )
+	kembali m
+	
+def  hitam ( panjang , lat ):
+	c = folium.Map (
+    lokasi = [ panjang , lat],
+    zoom_start = 12 ,
+    tile = ' Stamen Toner ' )	
+	kembali c
 
+def  masukkin ( apa , ini ):
+	d = folium.Map (
+	lokasi = [apa, ini],
+	zoom_start = 12 ,
+    ubin = ' medan stamen ' )	
+	kembali d
+	
+def  simpan ( anu , gede ):
+	anu.save (gede)
 
-tooltip = 'Click me!'
+d = masukkin ( - 6.966667 , 110.416667 )
+c = hitam ( - 6.966667 , 110.416667 )
+m = inisiasi ( - 6.966667 , 110.416667 )
+tooltip =  ' klik saya! '
+
 
 
 m = folium.Map(
